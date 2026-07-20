@@ -1,3 +1,5 @@
+% Ez csak egy function amit be kell copy-zni a Matlabba, hogy a másik kód működjön
+
 function H = read_alist(filename)
 % 1. Fájl megnyitása olvasásra
 fid = fopen(filename, 'r');
